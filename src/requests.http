@@ -1,0 +1,6 @@
+PATCH http://localhost:8080/api/journeys/7
+Content-Type: application/json
+
+{
+  "endDate":"2026-10-20"
+}

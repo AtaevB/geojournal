@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: geojournal-postgres
+    environment:
+      POSTGRES_DB: geojournal
+      POSTGRES_USER: geojournal
+      POSTGRES_PASSWORD: geojournal
+    ports:
+      - "5432:5432"
+    volumes:
+      - geojournal_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  geojournal_postgres_data:
