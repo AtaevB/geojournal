@@ -1,6 +1,9 @@
-PATCH http://localhost:8080/api/journeys/7
+POST http://localhost:8080/api/journeys/4/entries
 Content-Type: application/json
 
 {
-  "endDate":"2026-10-20"
+  "title": "Frauenkirche",
+  "description": "Walk through the old town",
+  "latitude": 51.0519,
+  "longitude": 13.7415
 }
