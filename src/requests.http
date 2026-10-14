@@ -1,9 +1,7 @@
-POST http://localhost:8080/api/journeys/4/entries
+PATCH http://localhost:8080/api/journeys/4/entries/1
 Content-Type: application/json
 
 {
-  "title": "Frauenkirche",
-  "description": "Walk through the old town",
-  "latitude": 51.0519,
-  "longitude": 13.7415
+  "title": "Zwinger",
+  "description": "Visited in the evening"
 }
